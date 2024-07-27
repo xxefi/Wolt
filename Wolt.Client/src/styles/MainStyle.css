@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BlinkMacSystemFont";
+  src: url("../fonts/SFProText-Medium.ttf");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/FontsFree-Net-Nunito-Bold.ttf");
+}
+* {
+  font-family: "BlinkMacSystemFont";
+}

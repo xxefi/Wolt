@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\dataaccess\\woltdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:dataaccess\\woltdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\woltapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:woltapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsDto.cs",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Dtos\\ProductsDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductsDto.cs",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Dtos\\ProductsDto.cs",
+              "RelativeToolTip": "Dtos\\ProductsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T02:53:46.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T02:35:50.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\Products.cs",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Models\\Products.cs",
+              "RelativeToolTip": "Models\\Products.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T02:31:48.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WoltAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\WoltAPI.csproj",
+              "RelativeDocumentMoniker": "WoltAPI.csproj",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\WoltAPI.csproj",
+              "RelativeToolTip": "WoltAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T02:30:31.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WoltDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\DataAccess\\WoltDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\WoltDbContext.cs",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\DataAccess\\WoltDbContext.cs",
+              "RelativeToolTip": "DataAccess\\WoltDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T02:30:21.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-27T02:28:35.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-27T02:28:25.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T02:24:40.294Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

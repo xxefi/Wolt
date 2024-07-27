@@ -1,0 +1,6 @@
+@WoltAPI_HostAddress = http://localhost:5265
+
+GET {{WoltAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
