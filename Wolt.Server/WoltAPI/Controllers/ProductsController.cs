@@ -13,17 +13,19 @@ namespace WoltAPI.Controllers
     {
         private readonly WoltDbContext _context;
 
-        public ProductsController(WoltDbContext context)
-        {
-            _context = context;
-        }
+        public ProductsController(WoltDbContext context) => _context = context;
 
         [HttpGet("GetWoltProducts")]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] string? query, CancellationToken ct)
         {
-            var products = await _context.Products.ToListAsync();
+            IQueryable<Products> productsQuery = _context.Products;
 
-            if (products == null || !products.Any())
+            if (!string.IsNullOrEmpty(query))
+                productsQuery = productsQuery.Where(p => p.Name.Contains(query) || p.Description.Contains(query));
+
+            var products = await productsQuery.ToListAsync(ct);
+
+            if (products == null)
                 return NotFound("No data found");
 
             return Ok(products);
@@ -46,7 +48,7 @@ namespace WoltAPI.Controllers
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(Post), new {id = product.Id}, product);
+            return Ok("Product successful added");
         }
     }
 }

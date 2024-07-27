@@ -92,3 +92,4 @@ C:\Users\magsu\Desktop\Desktop\MyStat\React\Project\Wolt.Server\WoltAPI\obj\Debu
 C:\Users\magsu\Desktop\Desktop\MyStat\React\Project\Wolt.Server\WoltAPI\obj\Debug\net8.0\WoltAPI.pdb
 C:\Users\magsu\Desktop\Desktop\MyStat\React\Project\Wolt.Server\WoltAPI\obj\Debug\net8.0\WoltAPI.genruntimeconfig.cache
 C:\Users\magsu\Desktop\Desktop\MyStat\React\Project\Wolt.Server\WoltAPI\obj\Debug\net8.0\ref\WoltAPI.dll
+C:\Users\magsu\Desktop\Desktop\MyStat\React\Project\Wolt.Server\WoltAPI\obj\Debug\net8.0\WoltAPI.sourcelink.json

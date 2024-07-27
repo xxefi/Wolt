@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\dataaccess\\woltdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:dataaccess\\woltdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B20381-7F3F-4AF0-93F3-FD535D601245}|WoltAPI.csproj|c:\\users\\magsu\\desktop\\desktop\\mystat\\react\\project\\wolt.server\\woltapi\\woltapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductsDto.cs",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Dtos\\ProductsDto.cs",
               "RelativeDocumentMoniker": "Dtos\\ProductsDto.cs",
@@ -68,14 +68,14 @@
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T02:35:50.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Models\\Products.cs",
@@ -99,19 +99,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WoltDbContext.cs",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\DataAccess\\WoltDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\WoltDbContext.cs",
               "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\DataAccess\\WoltDbContext.cs",
               "RelativeToolTip": "DataAccess\\WoltDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T02:30:21.117Z"
+              "WhenOpened": "2024-07-27T02:30:21.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -123,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -135,15 +136,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T02:24:40.294Z"
+              "WhenOpened": "2024-07-27T02:24:40.294Z",
+              "EditorCaption": ""
             }
           ]
         }

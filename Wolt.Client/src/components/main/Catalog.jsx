@@ -25,7 +25,6 @@ import { FaSearch } from "react-icons/fa";
 import CatalogFooter from "../footers/CatalogFooter";
 import SearchBox from "../catalog-boxes/SearchBox";
 import SortMenu from "../catalog-boxes/SortMenu";
-import ProductsBox from "../catalog-boxes/ProductsBox";
 import ProductCatalog from "../other/ProductCatalog";
 import { motion } from "framer-motion";
 
@@ -57,49 +56,49 @@ export default function Catalog() {
 
   return (
     <div>
+      <SearchBox
+        InputGroup={InputGroup}
+        Input={Input}
+        InputRightElement={InputRightElement}
+        Button={Button}
+        FaSearch={FaSearch}
+      />
+      <SortMenu
+        ChevronDownIcon={ChevronDownIcon}
+        ChevronUpIcon={ChevronUpIcon}
+        Button={Button}
+        Menu={Menu}
+        MenuList={MenuList}
+        MenuButton={MenuButton}
+        MenuItem={MenuItem}
+        useState={useState}
+      />
       <MotionBox
         initial="hidden"
         animate="visible"
         variants={scrollAnimation}
         custom={0}
       >
-        <SearchBox
-          InputGroup={InputGroup}
-          Input={Input}
-          InputRightElement={InputRightElement}
-          Button={Button}
-          FaSearch={FaSearch}
-        />
-        <SortMenu
-          ChevronDownIcon={ChevronDownIcon}
-          ChevronUpIcon={ChevronUpIcon}
-          Button={Button}
-          Menu={Menu}
-          MenuList={MenuList}
-          MenuButton={MenuButton}
-          MenuItem={MenuItem}
-          useState={useState}
-        />
         <ProductCatalog />
-        <KeyWords
-          Box={Box}
-          Checkbox={Checkbox}
-          Slider={Slider}
-          SliderFilledTrack={SliderFilledTrack}
-          SliderThumb={SliderThumb}
-          SliderTrack={SliderTrack}
-          Tag={Tag}
-          TagCloseButton={TagCloseButton}
-          TagLabel={TagLabel}
-          Text={Text}
-          handlePriceChange={handlePriceChange}
-          handleRemoveKeyword={handleRemoveKeyword}
-          keywords={keywords}
-          price={price}
-        />
-
-        <CatalogFooter />
       </MotionBox>
+      <KeyWords
+        Box={Box}
+        Checkbox={Checkbox}
+        Slider={Slider}
+        SliderFilledTrack={SliderFilledTrack}
+        SliderThumb={SliderThumb}
+        SliderTrack={SliderTrack}
+        Tag={Tag}
+        TagCloseButton={TagCloseButton}
+        TagLabel={TagLabel}
+        Text={Text}
+        handlePriceChange={handlePriceChange}
+        handleRemoveKeyword={handleRemoveKeyword}
+        keywords={keywords}
+        price={price}
+      />
+
+      <CatalogFooter />
     </div>
   );
 }

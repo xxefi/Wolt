@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const fetchProducts = async () => {
+const fetchProducts = async (filter) => {
   try {
     const response = await axios.get(
       "https://localhost:44365/api/Products/GetWoltProducts"

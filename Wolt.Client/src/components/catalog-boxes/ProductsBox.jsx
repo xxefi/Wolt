@@ -7,13 +7,16 @@ export default function ProductsBox({ imageSrc, name, description, price }) {
       borderRadius="25px"
       overflow="hidden"
       boxShadow="sm"
-      _hover={{ boxShadow: "md" }}
+      _hover={{
+        transform: "rotate(2deg)",
+        boxShadow: "md",
+      }}
       p={7}
       bg="white"
       maxW={"sm"}
       transition="all 0.3s"
     >
-      <Image src={imageSrc} alt={name} mb={5} borderRadius={10} />
+      <Image src={imageSrc} alt={name} mb={4} borderRadius={15} />
       <Box>
         <Box d="flex" alignItems="baseline">
           <Text
@@ -39,7 +42,7 @@ export default function ProductsBox({ imageSrc, name, description, price }) {
         </Box>
         <Box>
           <Text fontSize="xl" color="black">
-            ${price}
+            <strong>{price} ₼</strong>
           </Text>
         </Box>
       </Box>
