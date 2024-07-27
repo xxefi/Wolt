@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WoltAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f618f9348868e9dba779548aa07db4c3ba79f5d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ea495002d4191b255f5f0f9122fbbf8e005bbe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WoltAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WoltAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

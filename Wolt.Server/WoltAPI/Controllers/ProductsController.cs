@@ -21,7 +21,9 @@ namespace WoltAPI.Controllers
             IQueryable<Products> productsQuery = _context.Products;
 
             if (!string.IsNullOrEmpty(query))
-                productsQuery = productsQuery.Where(p => p.Name.Contains(query) || p.Description.Contains(query));
+                productsQuery = productsQuery
+                    .Where(p => p.Name.Contains(query)
+                    || p.Description.Contains(query));
 
             var products = await productsQuery.ToListAsync(ct);
 

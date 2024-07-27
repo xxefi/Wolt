@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\magsu\\Desktop\\Desktop\\MyStat\\React\\Project\\Wolt.Server\\WoltAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAAA6AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T02:35:50.123Z",
               "EditorCaption": ""
@@ -107,8 +107,7 @@
               "RelativeToolTip": "DataAccess\\WoltDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T02:30:21.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T02:30:21.117Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T02:24:40.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T02:24:40.294Z"
             }
           ]
         }
