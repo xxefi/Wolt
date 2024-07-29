@@ -21,7 +21,7 @@ export default function Register() {
         <div className="w-full bg-white rounded-3xl p-5 shadow dark:border md:mt-0 sm:max-w-md xl:p-0">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <Link
-              to="/home"
+              to="/"
               className="flex items-center justify-center mb-6 text-2xl font-semibold text-black"
             >
               <img className="w-20 h-20" src="./public/logo.png" alt="logo" />

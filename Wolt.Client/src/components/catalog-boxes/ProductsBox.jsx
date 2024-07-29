@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 export default function ProductsBox({ imageSrc, name, description, price }) {
   return (
     <Box
-      borderWidth="10px"
+      borderWidth="5px"
       borderRadius="25px"
       overflow="hidden"
       boxShadow="sm"

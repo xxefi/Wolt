@@ -15,8 +15,8 @@ namespace WoltAPI.Controllers
 
         public ProductsController(WoltDbContext context) => _context = context;
 
-        [HttpGet("GetWoltProducts")]
-        public async Task<IActionResult> Get([FromQuery] string? query, CancellationToken ct)
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] string? query, [FromQuery] string? sortBy, CancellationToken ct)
         {
             IQueryable<Products> productsQuery = _context.Products;
 
@@ -25,6 +25,18 @@ namespace WoltAPI.Controllers
                     .Where(p => p.Name.Contains(query)
                     || p.Description.Contains(query));
 
+            if (!string.IsNullOrEmpty(sortBy))
+            {
+                bool isDescending = sortBy == "desc";
+
+                productsQuery = sortBy switch
+                {
+                    "New" => isDescending ? productsQuery.OrderByDescending(p => p.Id) : productsQuery.OrderBy(p => p.Id),
+                    "Price Ascending" => productsQuery.OrderBy(p => p.Price),
+                    "Price Descending" => productsQuery.OrderByDescending(p => p.Price),
+                    _ => productsQuery
+                };
+            }
             var products = await productsQuery.ToListAsync(ct);
 
             if (products == null)
@@ -33,7 +45,7 @@ namespace WoltAPI.Controllers
             return Ok(products);
         }
 
-        [HttpPost("PostProduct")]
+        [HttpPost]
         public async Task<IActionResult> Post([FromBody] ProductsDto productsDto)
         {
             if (productsDto == null)

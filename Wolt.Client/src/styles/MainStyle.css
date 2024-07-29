@@ -10,6 +10,11 @@
   font-family: "Nunito";
   src: url("../fonts/FontsFree-Net-Nunito-Bold.ttf");
 }
+@font-face {
+  font-family: "Volte";
+  src: url("../fonts/Volte-Bold.ttf");
+}
 * {
   font-family: "BlinkMacSystemFont";
+  user-select: none;
 }

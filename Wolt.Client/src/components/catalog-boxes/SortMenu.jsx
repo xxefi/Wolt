@@ -45,9 +45,6 @@ export default function SortMenu({
               <MenuItem onClick={() => handleMenuItemClick("Price Descending")}>
                 Price Descending
               </MenuItem>
-              <MenuItem onClick={() => handleMenuItemClick("Rating")}>
-                Rating
-              </MenuItem>
             </MenuList>
           </>
         )}

@@ -2,20 +2,22 @@ import { Box, Button, SimpleGrid, Tooltip } from "@chakra-ui/react";
 import ProductsBox from "../catalog-boxes/ProductsBox";
 import fetchProducts from "./products.js";
 import { useEffect, useState } from "react";
+import Filters from "./Filters.jsx";
 
 const PRODUCTS_FER_PAGE = 7;
 
 export default function ProductCatalog() {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [filter, setFilter] = useState([]);
 
   useEffect(() => {
     const loadProducts = async () => {
-      const productsData = await fetchProducts();
+      const productsData = await fetchProducts(filter);
       setProducts(productsData);
     };
     loadProducts();
-  }, []);
+  }, [filter]);
 
   const totalProducts = products.length;
   const totalPages = Math.ceil(totalProducts / PRODUCTS_FER_PAGE);
@@ -37,7 +39,8 @@ export default function ProductCatalog() {
       alignItems="center"
       p={4}
     >
-      <SimpleGrid columns={[1, null, 3]} spacing="80px">
+      <Filters filter={filter} setFilter={setFilter} />
+      <SimpleGrid columns={[1, null, 3]} spacing="30px">
         {currentProducts.length ? (
           currentProducts.map((product) => (
             <ProductsBox

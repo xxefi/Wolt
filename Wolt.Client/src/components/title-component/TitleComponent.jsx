@@ -1,7 +1,6 @@
 import { Input, Tooltip, Box } from "@chakra-ui/react";
 import React from "react";
 import "../../styles/TitleComponent.css";
-import Carousel from "../carousel-footer/Carousel";
 
 export default function TitleComponent() {
   return (
@@ -36,11 +35,12 @@ export default function TitleComponent() {
           >
             <Input
               bg="white"
+              boxShadow="4px 4px 8px 0px rgba(34, 60, 80, 0.2)"
               w={400}
               h={14}
               borderRadius={12}
               mt={2}
-              placeholder="📌 Enter delivery address..."
+              placeholder="😍 Enter delivery address..."
               fontWeight="bold"
             />
           </Tooltip>
