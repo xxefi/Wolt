@@ -4,7 +4,7 @@ import fetchProducts from "./products.js";
 import { useEffect, useState } from "react";
 import Filters from "./Filters.jsx";
 
-const PRODUCTS_FER_PAGE = 7;
+const PRODUCTS_FER_PAGE = 5;
 
 export default function ProductCatalog() {
   const [products, setProducts] = useState([]);

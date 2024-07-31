@@ -19,11 +19,11 @@ export default function Filters({ filter, setFilter }) {
       sortOption: option,
     }));
     toast({
-      title: `Succestful Sorted by ${option}`,
+      title: `${option}`,
       status: "success",
       duration: 1000,
       isClosable: true,
-      position: "bottom right",
+      position: "top",
     });
   };
 
@@ -53,10 +53,10 @@ export default function Filters({ filter, setFilter }) {
         {({ isOpen }) => (
           <>
             <MenuButton
-              marginLeft={5}
               borderRadius={20}
               isActive={isOpen}
               as={Button}
+              marginLeft={5}
               rightIcon={isOpen ? <ChevronUpIcon /> : <ChevronDownIcon />}
             >
               {filter.sortOption || "Sort"}

@@ -16,7 +16,14 @@ namespace WoltAPI.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(_configuration.GetConnectionString("Default"));
+            if (!optionsBuilder.IsConfigured)
+            {
+                var builder = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+
+                optionsBuilder.UseSqlServer(_configuration.GetConnectionString("Default"));
+            }
         }
     }
 }
