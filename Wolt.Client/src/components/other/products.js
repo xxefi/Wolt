@@ -2,7 +2,7 @@ import axios from "axios";
 
 const fetchProducts = async (filter) => {
   try {
-    const response = await axios.get("https://localhost:44365/api/products", {
+    const response = await axios.get("https://localhost:7272/api/products", {
       params: {
         query: filter?.search,
         sortBy: filter?.sortOption,
