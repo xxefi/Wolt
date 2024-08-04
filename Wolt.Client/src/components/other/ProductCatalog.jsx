@@ -64,7 +64,7 @@ export default function ProductCatalog() {
               mx={1}
               onClick={() => handlePageChange(currentPage - 1)}
             >
-              Back
+              ‹
             </Button>
             {Array.from({ length: totalPages }, (_, index) => (
               <Tooltip
@@ -90,7 +90,7 @@ export default function ProductCatalog() {
               mx={1}
               onClick={() => handlePageChange(currentPage + 1)}
             >
-              Next
+              ›
             </Button>
           </Box>
         )}
