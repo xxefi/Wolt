@@ -4,7 +4,7 @@ import fetchProducts from "./products.js";
 import { useEffect, useState } from "react";
 import Filters from "./Filters.jsx";
 
-const PRODUCTS_FER_PAGE = 5;
+const PRODUCTS_FER_PAGE = 6;
 
 export default function ProductCatalog() {
   const [products, setProducts] = useState([]);
@@ -59,6 +59,13 @@ export default function ProductCatalog() {
       <Box textAlign="center" mt={10}>
         {totalPages > 1 && (
           <Box mb={4}>
+            <Button
+              isDisabled={currentPage === 1}
+              mx={1}
+              onClick={() => handlePageChange(currentPage - 1)}
+            >
+              Back
+            </Button>
             {Array.from({ length: totalPages }, (_, index) => (
               <Tooltip
                 key={index + 1}
@@ -78,6 +85,13 @@ export default function ProductCatalog() {
                 </Button>
               </Tooltip>
             ))}
+            <Button
+              isDisabled={currentPage === totalPages}
+              mx={1}
+              onClick={() => handlePageChange(currentPage + 1)}
+            >
+              Next
+            </Button>
           </Box>
         )}
       </Box>
