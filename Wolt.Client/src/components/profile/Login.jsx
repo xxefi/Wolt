@@ -13,8 +13,7 @@ export default function Login() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (loading)
-    return <LoadingSpinner />;
+  if (loading) return <LoadingSpinner />;
     
   return (
     <section className="bg-white">
