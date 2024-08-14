@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WoltAPI.DataAccess;
@@ -93,7 +93,7 @@ namespace WoltAPI.Controllers
         }
 
         [HttpDelete("DeleteProduct")]
-        public async Task<IActionResult> DeleteProductAsync(int id)
+        public async Task<IActionResult> DeleteProductAsync(Guid id)
         {
             var existingProduct = await _context.Products.FindAsync(id);
 
