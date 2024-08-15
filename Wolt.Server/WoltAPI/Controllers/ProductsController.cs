@@ -104,7 +104,7 @@ public class ProductsController : ControllerBase
         await _context.SaveChangesAsync();
 
         return Ok($"Deleted Product:" +
-            $" \nId: {existingProduct.Id}" +
-            $"\nName: {existingProduct.Name}");
+            $" \nName: {existingProduct.Name}" +
+            $"\nPrice: {existingProduct.Price}");
     }
 }
