@@ -19,14 +19,14 @@ export default function ProductCatalog() {
     loadProducts();
   }, [filter]);
 
-  const totalProducts = products.length;
+  const totalProducts = products?.length;
   const totalPages = Math.ceil(totalProducts / PRODUCTS_FER_PAGE);
 
   const handlePageChange = (pageN) => {
     setCurrentPage(pageN);
   };
 
-  const currentProducts = products.slice(
+  const currentProducts = products?.slice(
     (currentPage - 1) * PRODUCTS_FER_PAGE,
     currentPage * PRODUCTS_FER_PAGE
   );
@@ -41,7 +41,7 @@ export default function ProductCatalog() {
     >
       <Filters filter={filter} setFilter={setFilter} />
       <SimpleGrid columns={[1, null, 3]} spacing="30px">
-        {currentProducts.length ? (
+        {currentProducts?.length ? (
           currentProducts.map((product) => (
             <ProductsBox
               key={product.id}
