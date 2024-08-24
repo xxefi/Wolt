@@ -1,0 +1,16 @@
+.btn,
+.btn:active,
+.btn:hover,
+.btn:focus {
+  margin-top: 2rem;
+  font-family: "Space Mono", monospace;
+  color: #fff;
+  background-color: #333333;
+  border: none;
+  outline: none;
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}
